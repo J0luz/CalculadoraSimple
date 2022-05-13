@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:sans-serif;
+  font-size: 20px;
+}
+body{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+container{
+  display: flex;
+  flex-direction:column;
+
+  padding:20px;
+  min-width: 350px;
+  min-height: 200px;
+  justify-content: center;
+ align-content: center;
+ background-color: #f2f2f2;
+
+ border: 1px solid;
+ border-radius: 10px;
+}
+#mostrador{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  align-self:center;
+  height: 2rem;
+  width: 15rem;
+  background-color: #ffff;
+  margin: .5rem;
+
+  border: 1px solid;
+  border-color: #a9a7a3;
+  border-radius: 3px;
+  
+}
+#mostrador p{
+  margin-right: .5rem;
+}
+
+#teclado{
+  min-width: 300px;
+  
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:2px;
+
+  
+}
+
+#teclado div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10px;
+  padding:5px;
+}
+
+#teclado div:nth-child(16){
+  background-color:green;
+  grid-row:span 2;
+  
+ 
+}
+#teclado div:nth-child(12){
+  background-color:#df4e4f;
+}
+.button{
+ background-color:antiquewhite;
+ border: 1px solid;
+ border-color: #a9a7a3;
+ border-radius: 2px;
+
+
+}
+
+.button:hover{
+}
